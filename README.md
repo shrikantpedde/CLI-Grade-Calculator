@@ -29,8 +29,26 @@ This project demonstrates core Python fundamentals:
 | **50% - 59%** | D |
 | **Below 50%** | F |
 
-## How to Run
+## Sample Output
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/shrikantpedde/CLI-Grade-Calculator.git](https://github.com/shrikantpedde/CLI-Grade-Calculator.git)
+```text
+=== CLI Grade Calculator ===
+Enter total number of subjects: 3
+Enter name for subject 1: Maths
+Enter marks obtained in Maths (0-100): 85
+Enter name for subject 2: Science
+Enter marks obtained in Science (0-100): 92
+Enter name for subject 3: English
+Enter marks obtained in English (0-100): 78
+
+==============================
+        GRADE REPORT        
+==============================
+Maths          : 85.00
+Science        : 92.00
+English        : 78.00
+------------------------------
+Total Marks    : 255.00 / 300
+Percentage     : 85.00%
+Overall Grade  : A
+==============================
